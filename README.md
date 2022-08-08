@@ -1,12 +1,12 @@
-# Simple shell
+# ALX Simple shell Team Project
 
 > This is an ALX collaboration project on Shell
-## Written by
+## Project was completed using
 
 - C language
 - Shell
 - Betty linter
-## General Requirement
+## General Requirement for project
 
 - All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All files should end with a new line
@@ -31,11 +31,12 @@ $`
 
 ## Authors
 
-👤 **Tarikwa Tesfa**
+👤 **Obed Ehoneah**
 
-- GitHub: [@tariktesfa](https://github.com/tariktesfa)
-- Twitter: [@tarikwatesfa](https://twitter.com/tarik_tesfa)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/tarikwa-tesfa)
+- GitHub: [@ehoneahobed](https://github.com/ehoneahobed)
+- Twitter: [@ehoneahobed](https://twitter.com/ehoneahobed)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ehoneahobed)
+- Blog: [Personal Blog](https://blog.ehoneahobed.com)
 
 👤 **Dawit Sisay**
 
@@ -43,17 +44,3 @@ $`
 - Twitter: [@Dawitsisay](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- ALX Community
-- Hat tip to anyone whose code was used
