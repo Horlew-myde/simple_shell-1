@@ -38,9 +38,8 @@ $`
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ehoneahobed)
 - Blog: [Personal Blog](https://blog.ehoneahobed.com)
 
-👤 **Dawit Sisay**
+👤 **JUSTICE MENSAH BLAY MEWUBE**
 
-- GitHub: [@dawitsisayy](https://github.com/DawitSisayy)
-- Twitter: [@Dawitsisay](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@JUSTICEMENSAH-ALX](https://github.com/JUSTICEMENSAH-ALX)
+- LinkedIn: [LinkedIn](linkedin.com/in/mensah-blay-justice)
 
