@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 
 char *get_args(char *line, int *exe_ret);
 int call_args(char **args, char **front, int *exe_ret);
@@ -28,7 +28,7 @@ if (read == -1)
 return (NULL);
 if (read == 1)
 {
-hist++;
+history_count++;
 if (isatty(STDIN_FILENO))
 write(STDOUT_FILENO, prompt, 2);
 return (get_args(line, exe_ret));
@@ -126,7 +126,7 @@ else
 ret = *exe_ret;
 }
 
-hist++;
+history_count++;
 
 for (i = 0; args[i]; i++)
 free(args[i]);

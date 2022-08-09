@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 
 char *error_126(char **args);
 char *error_127(char **args);
@@ -14,11 +14,11 @@ char *error_126(char **args)
 	char *error, *hist_str;
 	int len;
 
-	hist_str = _itoa(hist);
+	hist_str = _itoa(history_count);
 	if (!hist_str)
 		return (NULL);
 
-	len = _strlen(name) + _strlen(hist_str) + _strlen(args[0]) + 24;
+	len = _strlen(shell) + _strlen(hist_str) + _strlen(args[0]) + 24;
 	error = malloc(sizeof(char) * (len + 1));
 	if (!error)
 	{
@@ -26,7 +26,7 @@ char *error_126(char **args)
 		return (NULL);
 	}
 
-	_strcpy(error, name);
+	_strcpy(error, shell);
 	_strcat(error, ": ");
 	_strcat(error, hist_str);
 	_strcat(error, ": ");
@@ -48,11 +48,11 @@ char *error_127(char **args)
 	char *error, *hist_str;
 	int len;
 
-	hist_str = _itoa(hist);
+	hist_str = _itoa(history_count);
 	if (!hist_str)
 		return (NULL);
 
-	len = _strlen(name) + _strlen(hist_str) + _strlen(args[0]) + 16;
+	len = _strlen(shell) + _strlen(hist_str) + _strlen(args[0]) + 16;
 	error = malloc(sizeof(char) * (len + 1));
 	if (!error)
 	{
@@ -60,7 +60,7 @@ char *error_127(char **args)
 		return (NULL);
 	}
 
-	_strcpy(error, name);
+	_strcpy(error, shell);
 	_strcat(error, ": ");
 	_strcat(error, hist_str);
 	_strcat(error, ": ");
