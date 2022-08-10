@@ -40,7 +40,7 @@ int (*get_builtin(char *command))(char **args, char **front)
  * @front: A double pointer to the beginning of args.
  *
  * Return: If there are no arguments - -3.
- *         If the given exit value is invalid - 
+ *         If the given exit value is invalid - 2.
  *         O/w - exits with the given status value.
  *
  * Description: Upon returning -3, the program exits back in the main function.
